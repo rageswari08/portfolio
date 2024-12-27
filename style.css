@@ -74,12 +74,13 @@ button {
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease, background-color 0.3s ease;
 }
 
 button:hover {
     background-color: #ff8c00;
     color: #fff;
+    transform: scale(1.05);
 }
 @media (max-width: 768px) {
     header h1 {
